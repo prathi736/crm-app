@@ -13,7 +13,7 @@
   <form method="POST" action="{% url 'home' %}">
     {% csrf_token %}
 
-    <form>
+    <!-- <form> -->
       <div class="mb-3">
         <label class="form-label fw-semibold">Enter Username</label>
         <input
@@ -34,8 +34,9 @@
           required
         />
       </div>
+      <br/>
       <button type="submit" class="btn btn-success">Login</button>
-    </form>
+    <!-- </form> -->
 
   </form>
 </div>
